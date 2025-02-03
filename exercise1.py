@@ -34,7 +34,6 @@ def copy_and_sort_files(source_dir, dest_dir):
 
 
 def main():
-    # Парсинг аргументів командного рядка
     parser = argparse.ArgumentParser(description="Recursive file sorter by extension.")
     parser.add_argument("source_dir", help="Path to the source directory.")
     parser.add_argument(
